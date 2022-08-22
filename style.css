@@ -31,6 +31,8 @@ body{
     align-items: center;
 }
 
+/* header */
+
 header{
     height: 100vh;
     background-image: url(images/header-bg.jpg);
@@ -55,6 +57,8 @@ header p{
 header a, .donate-today a{
     margin-top: 50px;
 }
+
+/* donate today section */
 
 .donate-today{
     height: 100vh;
@@ -101,4 +105,67 @@ header a, .donate-today a{
     color: #B3B3B3;
     width: 60%;
     margin-top: 20px;
+}
+
+/* donate plan section */
+
+.donate-plan{
+    height: 100vh;
+}
+
+.donate-plan h2{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.donate-plan p{
+    font-size: 25px;
+    width: 40%;
+    text-align: center;
+    color: gray;
+    margin: 20px 0;
+}
+
+.donate-plans{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.donate-card{
+    margin: 0 20px;
+    padding: 100px 40px;
+    border-radius: 10px;
+}
+
+.donate-card img{
+    margin-bottom: 20px;
+}
+
+.donate-card h4{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.donate-card p{
+    text-align: left;
+    font-size: 20px;
+    width: 100%;
+}
+
+.donate-card img{
+    scale: 1.2;
+}
+
+#green-card{
+    background-color: #eaf6f5;
+}
+
+#red-card{
+    background-color: #ffeded;
+}
+
+#yellow-card{
+    background-color: #FFF4D6;
 }
