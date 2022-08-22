@@ -9,16 +9,29 @@ body{
     margin: 0;
 }
 
+.red-btn{
+    text-decoration: none;
+    background-color: #FF5959;
+    color: #fff;
+    padding: 15px 20px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 header{
     height: 100vh;
     background-image: url(images/header-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 header h1{
@@ -38,12 +51,38 @@ header a{
     margin-top: 30px;
 }
 
-.red-btn{
-    text-decoration: none;
-    background-color: #FF5959;
-    color: #fff;
-    padding: 15px 20px;
-    font-weight: 600;
-    font-size: 20px;
+.donate-today{
+    height: 100vh;
+}
+
+.donate-today h2{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.donate-today p{
+    font-size: 25px;
+    width: 40%;
+    text-align: center;
+    color: gray;
+    margin: 20px 0;
+}
+
+.donation-amount{
+    display: flex;
+}
+
+.donation-amount h3{
+    background-color: #FAFAFA;
+    color: #707070;
+    padding: 40px 20px;
+    margin: 20px;
+    font-size: 50px;
     border-radius: 10px;
+}
+
+#red-amount{
+    color: #FF5959;
+    border: 4px solid #FF5959;
+    background-color: #fff0f0;
 }
