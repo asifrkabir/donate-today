@@ -223,3 +223,18 @@ header a, .donate-today a{
     justify-content: center;
     align-items: center;
 }
+
+/* footer */
+
+footer{
+    background-color: #0B0D17;
+    color: white;
+    text-align: center;
+    height: 200px;
+}
+
+footer h4{
+    font-size: 30px;
+    color: #FF5959;
+    margin: 20px;
+}
