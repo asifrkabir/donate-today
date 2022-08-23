@@ -169,3 +169,57 @@ header a, .donate-today a{
 #yellow-card{
     background-color: #FFF4D6;
 }
+
+/* updates section */
+
+/* donate plan section */
+
+.updates{
+    height: 100vh;
+}
+
+.updates h2{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.updates p{
+    font-size: 25px;
+    width: 40%;
+    text-align: center;
+    color: gray;
+    margin: 20px 0;
+}
+
+.updates form{
+    background-color: #ffe6d2;
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.updates input{
+    border: none;
+    background-color: #FAFAFA;
+    height: 48px;
+    width: 400px;
+    font-size: 25px;
+    margin: 0;
+    padding: 10px 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.updates a{
+    padding: 15px 25px;
+    border-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
