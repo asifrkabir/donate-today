@@ -31,7 +31,7 @@ body{
     align-items: center;
 }
 
-/* header */
+/* header start */
 
 header{
     height: 100vh;
@@ -58,7 +58,9 @@ header a, .donate-today a{
     margin-top: 50px;
 }
 
-/* donate today section */
+/* header end */
+
+/* donate today section start */
 
 .donate-today{
     height: 100vh;
@@ -107,7 +109,9 @@ header a, .donate-today a{
     margin-top: 20px;
 }
 
-/* donate plan section */
+/* donate today section end */
+
+/* donate plan section start */
 
 .donate-plan{
     height: 100vh;
@@ -170,9 +174,42 @@ header a, .donate-today a{
     background-color: #FFF4D6;
 }
 
-/* updates section */
+/* donate plan section end */
 
-/* donate plan section */
+/* activities section start */
+
+.activities{
+    height: 100vh;
+}
+
+.activities h2{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.activities p{
+    font-size: 25px;
+    width: 40%;
+    text-align: center;
+    color: gray;
+    margin: 20px 0;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery img{
+    margin: 20px;
+    width: 25%;
+    border-radius: 10px;
+}
+
+/* activities section end */
+
+/* updates section start */
 
 .updates{
     height: 100vh;
@@ -194,7 +231,7 @@ header a, .donate-today a{
 .updates form{
     background-color: #ffe6d2;
     height: 400px;
-    width: 1000px;
+    width: 1200px;
     display: flex;
     border-radius: 10px;
     justify-content: center;
@@ -224,7 +261,9 @@ header a, .donate-today a{
     align-items: center;
 }
 
-/* footer */
+/* updates section end */
+
+/* footer start */
 
 footer{
     background-color: #0B0D17;
@@ -238,3 +277,5 @@ footer h4{
     color: #FF5959;
     margin: 20px;
 }
+
+/* footer end */
